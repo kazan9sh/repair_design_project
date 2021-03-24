@@ -1,0 +1,62 @@
+.button {
+  background: #e3b873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  font-family: Nunito Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 13px 33px;
+  color: #ffffff;
+}
+
+.logo {
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #e3b873;
+}
+
+.home {
+  color: #e3b873;
+}
+
+.number {
+  text-align: right;
+  text-decoration-line: underline;
+
+  color: #e3b873;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  height: 83px;
+
+  align-items: center;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navigation_list {
+  margin-right: 47px;
+}
+
+.navigation_list a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  background-image: url(/images/Group\ 7.svg);
+  background-size: cover;
+  height: 707px;
+}
