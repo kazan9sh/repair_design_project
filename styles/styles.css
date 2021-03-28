@@ -1,125 +1,251 @@
 body * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: white;
-  margin: 0;
+    background-color: white;
+    margin: 0;
 }
 
 .button {
-  background: #e3b873;
-  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-  border-radius: 2px;
-  font-family: Nunito Sans;
-  font-style: italic;
-  font-weight: normal;
-  font-size: 11px;
-  line-height: 15px;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 13px 33px;
-  color: #ffffff;
-  outline: none;
-  border: 0;
+    background: #e3b873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 13px 33px;
+    color: #ffffff;
+    outline: 0;
+    border: 0;
+}
+
+.button:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgba(127, 255, 212, 0);
 }
 
 .logo {
-  color: #e3b873;
-}
-
-.home {
-  color: #e3b873;
+    color: #e3b873;
 }
 
 .number {
-  text-align: right;
-  text-decoration-line: underline;
-
-  color: #e3b873;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #e3b873;
 }
 
 header {
-  background-color: black;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 11px;
-  line-height: 15px;
+    background-color: black;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
 }
 
 .header_content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 83px;
-  font-size: 11px;
-  line-height: 15px;
-  text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 83px;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
 }
 
 .navigation {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  margin-left: 24px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 24px;
 }
 
 .navigation_list {
-  margin-right: 47px;
+    color: white;
+    margin-right: 47px;
 }
 
 .navigation_list a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
+}
+
+.navigation_list a:hover {
+    color: #e3b873;
 }
 
 .container {
-  max-width: 1263px;
-  margin: 0 auto;
-  padding: 0 18px;
+    max-width: 1263px;
+    margin: 0 auto;
+    padding: 0 18px;
 }
 
 .section1 {
-  background-image: url(/images/Group\ 7.svg);
-  background-size: cover;
-  height: 707px;
-  padding-top: 194px;
-  position: relative;
-  text-align: left;
+    background-image: url(/images/Group\ 7.svg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+    text-align: left;
 }
 
 .section1_container {
-  position: relative;
-  z-index: 1;
-  height: 305px;
+    position: relative;
+    z-index: 1;
+    height: 305px;
 }
 
 .subtitle {
-  font-family: "Yeseva One";
-  font-style: normal;
-  font-weight: normal;
-  text-transform: uppercase;
-  margin: 0;
-  font-size: 40px;
-  line-height: 53px;
-  color: #ffffff;
-  max-width: 676px;
-  height: 105px;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 40px;
+    line-height: 53px;
+    color: #ffffff;
+    max-width: 676px;
+    height: 105px;
 }
 
 .title {
-  color: #e3b873;
+    color: #e3b873;
 }
 
 .section1_text {
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: normal;
-  margin-top: 14px;
-  margin-bottom: 38px;
-  font-size: 22px;
-  line-height: 36px;
-  max-width: 504px;
-  color: #ffffff;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 14px;
+    margin-bottom: 38px;
+    font-size: 22px;
+    line-height: 36px;
+    max-width: 504px;
+    color: #ffffff;
+}
+
+.section2 {
+    background-color: #131313;
+    height: 732px;
+}
+
+.section2_navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 96px;
+}
+
+.section2_navigation_list {
+    display: flex;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    list-style-type: none;
+    margin-bottom: 57px;
+}
+
+.section2_navigation_list_line {
+    margin-right: 60.5px;
+}
+
+.section2_navigation_list_line_link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.section2_navigation_list_line_link:focus {
+    color: #E3B873;
+    padding-bottom: 7px;
+    border-bottom: 1px #e3b873 solid;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.section2_main_image {
+    padding-left: 50px;
+}
+
+.section2_main {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 27px;
+    position: static;
+}
+
+.section2_column_title {
+    color: #e3b873;
+    margin-bottom: 34px;
+    font-size: 27px;
+}
+
+.section2_column_text {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    max-width: 450px;
+    margin-bottom: 42px;
+}
+
+.section2_textcard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 370px;
+}
+
+.section2_textcard h3 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin: 0;
+}
+
+.section2_textcard span {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF
+}
+
+.section2_text_slider {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 81.1px;
+}
+
+.section2_text_slider_point {
+    cursor: pointer;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.24);
+    width: 10px;
+    height: 10px;
+    margin: 0px 9px;
+}
+
+.section2_text_slider_point:hover {
+    cursor: pointer;
+    background: white;
+}
+
+.section2_text_slider_arrow {
+    margin: 0px 20px;
 }
