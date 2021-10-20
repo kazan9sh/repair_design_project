@@ -749,4 +749,41 @@ header {
 .section7_inf {
     display: flex;
     justify-content: space-between;
+    margin-top: 39px;
+}
+
+.section7_inf_true {
+    width: 376px;
+    height: 428px;
+    justify-content: center;
+    box-shadow: 0px 10px 50px rgb(0 0 0 / 4%);
+    background: #FFFFFF;
+    width: 325px;
+    padding-top: 24px;
+    padding-left: 20px;
+    z-index: 1;
+}
+
+.section7_inf_true_img {
+    display: flex;
+}
+
+.section7_inf_true_img img {
+    border-radius: 50%;
+}
+
+.section7_inf_true_img h3 {
+    margin-left: 23px;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+}
+
+.section7_inf_text {
+    margin-top: 11px;
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+    text-align: left;
 }
